@@ -1,0 +1,13 @@
+{
+  "name":"FFOS App",
+  "description":"Firefox OS App [to try the api]",
+  "version":"1",
+  "launch_path":"/",
+  "icons": {
+    "128":  "/imgs/thorrents_icon_128.png"
+  },
+  "developer": {
+    "name":"makevoid",
+    "url":"http://makevoid.com"
+  }
+}

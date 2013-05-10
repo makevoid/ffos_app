@@ -1,0 +1,17 @@
+<meta name="viewport" content="width=device-width">
+<script>
+  var main = function(){
+    log("hello world")
+    var battery = navigator.battery || navigator.mozBattery || navigator.webkitBattery
+
+    log(battery.level)
+  }
+
+  var log = function(string){
+    var body = document.getElementsByTagName("body")[0]
+    body.innerHTML = body.innerHTML+string+"<br>"
+  }
+
+  document.addEventListener("DOMContentLoaded", main, false)
+</script>
+<h1>App</h1>
