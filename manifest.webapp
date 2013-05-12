@@ -2,7 +2,7 @@
   "name":"FFOS App",
   "description":"Firefox OS App [to try the api]",
   "version":"1",
-  "launch_path":"/",
+  "launch_path":"/index.html",
   "icons": {
     "128":  "/imgs/thorrents_icon_128.png"
   },
